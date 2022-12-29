@@ -1,0 +1,47 @@
+@keyframes FadeAnimation {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+}
+.adios {
+  animation: FadeAnimation 1s ease-in 0.2s forwards;
+
+  
+}
+
+/* EDIT BELOW */
+.h1x {
+  border: 1px solid black;
+  width: 80px;
+  background-color: burlywood;
+  margin-bottom: 5px;
+}
+.test-input {
+  font-family: monospace;
+  font-size: 12px;
+  color: burlywood;
+  background-color: #444;
+  white-space: pre;
+}
+table, th, td {
+  color: yellow;
+  background-color: #444;
+  border: 1px solid burlywood;
+  border-collapse: collapse;
+}
+table {
+  margin-bottom: 10px;
+}
+:root {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: antiquewhite;
+}
